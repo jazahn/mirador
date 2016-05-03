@@ -9,5 +9,4 @@ before_install:
 # - grunt test cover
 script:
 - npm run travis
-after_script:
 - cat ./reports/coverage/PhantomJS*/lcov.info | ./node_modules/coveralls/bin/coveralls.js
